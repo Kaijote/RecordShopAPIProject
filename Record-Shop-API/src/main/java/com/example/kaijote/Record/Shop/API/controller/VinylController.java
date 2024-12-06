@@ -24,7 +24,7 @@ public class VinylController {
     @GetMapping
     @ResponseBody
     public List<Vinyl> getAllVinylInStock(){
-        return null;
+        return service.getAllVinylsInStock;
     }
 
 }
